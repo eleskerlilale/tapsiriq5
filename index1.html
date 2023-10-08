@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+        }
+        .esas{
+            margin: auto;
+            width: 90%;
+        }
+        .navbar{
+            background-color: rgb(23, 24, 26);
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: aliceblue;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+        li:hover{
+            color: rgb(179, 180, 181);
+        }
+        .hisse1{
+            /* background-color: aqua; */
+            height: 450px;
+            padding:150px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 70px;
+
+        }
+        .hisse1 img{
+            width: 800px;
+            border-radius: 10px;
+        }
+        .hisse1 div{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        input{
+            border: 1px solid rgb(193, 193, 244);
+            background-color: blue;
+            border-radius: 4px;
+            color: aliceblue;
+            height: 30px;
+            width: 100px;
+        }
+        .hisse2{
+            height: 100px;
+            /* background-color: bisque; */
+            
+
+        }
+        .hisse2 p{
+            background-color: rgb(82, 86, 90);
+            border-radius: 15px;
+            color: aliceblue;
+            margin: 0 auto;
+            text-align: center;
+            height: 100px;
+            padding-top: 40px;
+        }
+        .hisse3{
+            /* background-color: rgb(194, 175, 211); */
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .hisse3 .blok{
+            border: 1px solid rgb(140, 139, 139);
+            border-radius: 10px;
+            width: 350px;
+            height: 190px;
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+        }
+        .blok .metn{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            padding: 10px;
+        }
+        .blok .buton{
+            background-color: rgb(235, 237, 239);
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            border: 1px solid rgb(169, 168, 168);
+        }
+        .hisse5{
+            background-color: black;
+            height: 80px;
+            color: aliceblue;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Start Bootstrap</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Servis</li>
+            </ul>
+        </div>
+        <div class="esas">
+            <div class="hisse1">
+                <img src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg">
+                <div>
+                    <h1>
+                        Business Name or Tagline
+                    </h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto earum voluptatibus iste quibusdam neque quas aliquam omnis, sequi rem officia, nisi excepturi cumque voluptate beatae! Ad distinctio quasi explicabo natus libero totam, beatae amet nostrum vero officia architecto provident quia sequi, delectus ipsum unde repellat quam exercitationem inventore atque voluptatem.</p>
+                    <input type="button" value="Call to Action">
+                </div>
+            </div>
+            <div class="hisse2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quos nostrum assumenda aliquam, quae maxime vero saepe?</p>
+            </div>
+            <div class="hisse3">
+                <div class="blok">
+                    <div class="metn">
+                        <h2>Card One</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim autem voluptas reiciendis itaque modi voluptatum.</p>
+                    </div>
+                    <div class="buton">
+                        <input type="button" value="More info">
+                    </div>
+                </div>
+                <div class="blok">
+                    <div class="metn">
+                        <h2>Card Two</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis animi architecto quos quod iste dolorem?</p>
+                    </div>
+                    <div class="buton">
+                        <input type="button" value="More info">
+                    </div>
+                </div>
+                <div class="blok">
+                    <div class="metn">
+                        <h2>Card Three</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione error eos consequatur eveniet similique excepturi.</p>
+                    </div>
+                    <div class="buton">
+                        <input type="button" value="More info">
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div class="hisse5">
+            Copyright Your Website 2023
+        </div>
+    </div>
+</body>
+</html>
